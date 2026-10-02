@@ -7,6 +7,9 @@ python resample_gaze.py "\yourgazedata" "\outputfile"
 
 # Command for NSS Score
 
-cd to/your/folder
+I have updated the code
+Now it can process all the gaze data files in one folder
+The output data will be saved to nss_Output, and a folder will be created for the specific video
 
-python nss_score_new.py --gaze_file "\your_gazefile.csv"  --saliency_dir ./your_saliency_frames --frame_col your_frame_column_name  --x_col x_col_name --y_col y_col_name --output ./nss_Output/youroutput.csv
+Command code
+python nss_score_new.py --gaze_dir "path/to/your/gazedata folder" --saliency_dir "saliency_frames\e.g. blockTowerR"
